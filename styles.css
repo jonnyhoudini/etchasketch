@@ -23,13 +23,15 @@ h1 {
   font-size: 24px;
 }
 
+
 .container {
   border: 1px solid white;
   background-color: white;
   display: grid;
-  grid-template-columns: repeat(16, 10px);
-  grid-template-rows: repeat(16, 10px);
   grid-gap: 1px;
+  width: 50vh;
+  height: 50vh;
+  margin: 0 auto;
 
 }
 
