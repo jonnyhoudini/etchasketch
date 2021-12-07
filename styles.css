@@ -9,6 +9,20 @@ h1 {
   font-size: 46px;
 }
 
+.btncontainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.button {
+  background-color: blue;
+  border: 1px solid white;
+  padding: 10px;
+  color: white;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 24px;
+}
+
 .container {
   border: 1px solid white;
   background-color: white;
@@ -16,10 +30,9 @@ h1 {
   grid-template-columns: repeat(16, 10px);
   grid-template-rows: repeat(16, 10px);
   grid-gap: 1px;
-  width: 175px;
-  margin: auto;
 
 }
+
 
 .item {
   background-color: blue;
